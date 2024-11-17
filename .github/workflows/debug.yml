@@ -56,8 +56,8 @@ jobs:
 
       - name: Upload To Telegram
         env:
-          CHAT_ID: "-1001597117128"
-          MESSAGE_THREAD_ID: "282263"
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          MESSAGE_THREAD_ID: ${{ secrets.MESSAGE_THREAD_ID }}
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
