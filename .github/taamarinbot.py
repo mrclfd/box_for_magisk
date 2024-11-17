@@ -9,7 +9,7 @@ API_HASH = os.environ.get("API_HASH")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = int(os.environ.get("CHAT_ID"))
-MESSAGE_THREAD_ID = int(os.environ.get("MESSAGE_THREAD_ID"))
+# MESSAGE_THREAD_ID = int(os.environ.get("MESSAGE_THREAD_ID"))
 VERSION = os.environ.get("VERSION")
 COMMIT = os.environ.get("COMMIT")
 MSG_TEMPLATE = """
